@@ -1,6 +1,5 @@
 function showTime(hours, minutes, seconds) {
 
-
     if (hours == undefined) {
         hours = 0;
     }
@@ -14,7 +13,6 @@ function showTime(hours, minutes, seconds) {
     hours = hours.toString().length == 1 ? ('0' + hours) : hours;
     minutes = minutes.toString().length == 1 ? ('0' + minutes) : minutes;
     seconds = seconds.toString().length == 1 ? ('0' + seconds) : seconds;
-
 
     document.write(`${hours}:${minutes}:${seconds}`)
 }
